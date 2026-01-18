@@ -1,0 +1,20 @@
+{
+  "projectName": "api-capture-1768704194642-87yuq",
+  "flows": [
+    {
+      "id": "api-test-flow",
+      "name": "API Test Flow",
+      "capturedAt": "2026-01-18T02:43:15.905Z",
+      "steps": [
+        {
+          "order": 1,
+          "name": "API Test Flow",
+          "description": "",
+          "filename": "001-api-test-flow.png",
+          "url": "https://example.com/",
+          "timestamp": "2026-01-18T02:43:15.905Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "projectName": "test-project_1768703909619",
+  "flows": [
+    {
+      "id": "test-flow",
+      "name": "Test Flow",
+      "capturedAt": "2026-01-18T02:38:30.871Z",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Test Flow",
+          "description": "",
+          "filename": "001-test-flow.png",
+          "url": "https://example.com/",
+          "timestamp": "2026-01-18T02:38:30.870Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "projectName": "crossbar",
+  "flows": [
+    {
+      "id": "crossbar-site",
+      "name": "Crossbar Site",
+      "capturedAt": "2026-01-18T04:35:31.559Z",
+      "steps": [],
+      "children": [
+        {
+          "id": "home",
+          "name": "Home",
+          "capturedAt": "2026-01-18T04:35:27.926Z",
+          "steps": [
+            {
+              "order": 1,
+              "name": "Home",
+              "description": "",
+              "filename": "001-home.png",
+              "url": "https://www.crossbar.org/",
+              "timestamp": "2026-01-18T04:35:27.926Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "platform---clubs",
+              "name": "platform - clubs",
+              "capturedAt": "2026-01-18T04:35:28.894Z",
+              "steps": [
+                {
+                  "order": 2,
+                  "name": "platform - clubs",
+                  "description": "",
+                  "filename": "002-platform---clubs.png",
+                  "url": "https://www.crossbar.org/platform/clubs",
+                  "timestamp": "2026-01-18T04:35:28.894Z"
+                }
+              ]
+            },
+            {
+              "id": "platform---league-management",
+              "name": "platform - league-management",
+              "capturedAt": "2026-01-18T04:35:29.742Z",
+              "steps": [
+                {
+                  "order": 3,
+                  "name": "platform - league-management",
+                  "description": "",
+                  "filename": "003-platform---league-management.png",
+                  "url": "https://www.crossbar.org/platform/league-management",
+                  "timestamp": "2026-01-18T04:35:29.742Z"
+                }
+              ]
+            },
+            {
+              "id": "platform---facilities",
+              "name": "platform - facilities",
+              "capturedAt": "2026-01-18T04:35:30.653Z",
+              "steps": [
+                {
+                  "order": 4,
+                  "name": "platform - facilities",
+                  "description": "",
+                  "filename": "004-platform---facilities.png",
+                  "url": "https://www.crossbar.org/platform/facilities",
+                  "timestamp": "2026-01-18T04:35:30.653Z"
+                }
+              ]
+            },
+            {
+              "id": "platform---tournaments",
+              "name": "platform - tournaments",
+              "capturedAt": "2026-01-18T04:35:31.559Z",
+              "steps": [
+                {
+                  "order": 5,
+                  "name": "platform - tournaments",
+                  "description": "",
+                  "filename": "005-platform---tournaments.png",
+                  "url": "https://www.crossbar.org/platform/tournaments",
+                  "timestamp": "2026-01-18T04:35:31.559Z"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

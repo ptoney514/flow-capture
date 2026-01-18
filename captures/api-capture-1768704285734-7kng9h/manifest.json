@@ -1,0 +1,20 @@
+{
+  "projectName": "api-capture-1768704285734-7kng9h",
+  "flows": [
+    {
+      "id": "test-flow-with-quotes-and-spaces",
+      "name": "Test Flow with 'quotes' and spaces",
+      "capturedAt": "2026-01-18T02:44:46.994Z",
+      "steps": [
+        {
+          "order": 1,
+          "name": "Test Flow with 'quotes' and spaces",
+          "description": "",
+          "filename": "001-test-flow-with-quotes-and-spaces.png",
+          "url": "https://example.com/",
+          "timestamp": "2026-01-18T02:44:46.993Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "flow-capture",
+  "version": "1.0.0",
+  "description": "Capture website flows with screenshots using Playwright",
+  "main": "src/capture.js",
+  "type": "module",
+  "scripts": {
+    "capture": "node src/capture.js",
+    "install-browser": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12"
+  },
+  "keywords": ["screenshot", "flow", "playwright", "capture"],
+  "license": "MIT"
+}

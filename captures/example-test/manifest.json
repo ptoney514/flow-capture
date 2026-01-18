@@ -1,0 +1,28 @@
+{
+  "projectName": "example-test",
+  "flows": [
+    {
+      "id": "example-crawl",
+      "name": "Example Crawl",
+      "capturedAt": "2026-01-18T04:32:15.264Z",
+      "steps": [],
+      "children": [
+        {
+          "id": "home",
+          "name": "Home",
+          "capturedAt": "2026-01-18T04:32:15.250Z",
+          "steps": [
+            {
+              "order": 1,
+              "name": "Home",
+              "description": "",
+              "filename": "001-home.png",
+              "url": "https://example.com/",
+              "timestamp": "2026-01-18T04:32:15.250Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
