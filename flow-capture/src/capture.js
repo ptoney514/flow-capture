@@ -21,6 +21,7 @@ class FlowCapture {
     this.automated = options.auto || false;
     this.stepsJson = options.steps || null;
     this.headless = options.headless || false;
+    this.fullPage = options.fullPage || false;
 
     // Crawl mode options
     this.crawlMode = options.crawl || false;
@@ -93,7 +94,7 @@ class FlowCapture {
 
     await this.page.screenshot({
       path: filepath,
-      fullPage: false
+      fullPage: this.fullPage
     });
 
     const step = {
@@ -599,6 +600,7 @@ program
   .option('--steps <json>', 'JSON array of steps to execute in auto mode')
   .option('-c, --connect-chrome', 'Connect to existing Chrome via CDP')
   .option('--headless', 'Run in headless mode')
+  .option('-F, --full-page', 'Capture full scrollable page instead of viewport')
   .option('--crawl', 'Enable crawl mode to discover and capture pages')
   .option('--depth <n>', 'Max crawl depth (default: 2)', '2')
   .option('--max-pages <n>', 'Max pages to capture (default: 50)', '50')
